@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Basic -->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!-- Site Metas -->
+    <title>QRA consultancy</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="#" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="#" />
+    <link rel="icon" href="./images/QRA.png" type="image/gif" sizes="16x16">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Pogo Slider CSS -->
+    <link rel="stylesheet" href="css/pogo-slider.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/navBar.css">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+        html {
+            background-color: #E5E5E5;
+            height: 100%;
+            margin: 0;
+            font-family: sans-serif;
+        }
+        
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        ol,
+        ul {
+            margin: 0;
+            padding: 0;
+            font-weight: 300;
+        }
+        
+        a,
+        a:visited {
+            color: #00796B;
+            text-decoration: none;
+        }
+        
+        .container {
+            margin-right: auto;
+            margin-left: auto;
+            padding-right: 1rem;
+            padding-left: 1rem;
+            width: calc(100% - 2 * 1rem);
+        }
+        
+        @media (min-width: 1400px) {
+            .container {
+                max-width: 1300px;
+            }
+        }
+        
+        .card {
+            display: block;
+            background-color: white;
+            background: white;
+            box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+            margin: 1rem;
+            border-radius: 2px;
+        }
+        
+        .card .inner {
+            padding: 1rem;
+        }
+        
+        header {
+            color: white;
+            background: #351C77;
+            box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+            height: 6rem;
+            display: flex;
+            align-items: center;
+        }
+        
+        header nav a,
+        header nav a:visited {
+            color: white;
+        }
+        /* trick to force image aspect ratio bafore it is downloaded */
+        
+        .card .image-container {
+            width: 100%;
+            padding-bottom: calc((140/280)*100%);
+            position: relative;
+        }
+        
+        .card .logo-container {
+            width: 40%;
+            padding-bottom: 40%;
+            position: relative;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .card .image,
+        .card .logo {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        
+        #service-list a-service {
+            width: 400px;
+        }
+        
+        #services h2 {
+            text-align: center;
+        }
+        
+        #service-list {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+        
+        #service-list a-service {
+            margin-left: 1rem;
+            margin-right: 1rem;
+        }
+        
+        #service-list a-service a {
+            text-decoration: none;
+            color: black;
+        }
+        
+        #service-list a-service:hover {
+            background-color: #DDDDDD;
+        }
+        
+        #service-list a-service:active {
+            background-color: #CCCCCC;
+        }
+        
+        #service-list a-service .title {
+            font-size: 2rem;
+            font-weight: 300;
+            margin-bottom: 1rem;
+            margin-top: 0;
+        }
+    </style>
+</head>
+
+<body id="cycv" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
+
+    <!-- LOADER -->
+    <div id="preloader">
+        <div class="loader">
+            <img src="images/loader.gif" alt="#" />
+        </div>
+    </div>
+    <!-- end loader -->
+    <!-- END LOADER -->
+
+    <!-- Start header -->
+    <header class="top-header">
+        <nav class="navbar header-nav nav bar-expand-lg">
+            <ul class="exo-menu">
+                <li>
+                    <a class="" href="/index.html">
+                        <img id="company_logo" src="./images/QRA22.png" />
+                    </a>
+                </li>
+                <li class="mega-drop-down"><a class="active" href="solution.html"><i class="fa fa-cogs"></i>
+                        Services</a>
+                    <div class="animated fadeIn mega-menu">
+                        <div class="mega-menu-wrap">
+                            <div class="row">
+
+                                <div class="col-md-2">
+                                    <h4 class="row mega-title">FINANCE</h4>
+                                    <ul class="description">
+                                        <li><a href="#">Financial planning </a>
+                                            <span>Description of Financial</span>
+                                        </li>
+                                        <li><a href="#">Saving planning</a>
+                                            <span>Description of Saving </span>
+                                        </li>
+                                        <li><a href="#">Retirement planning</a>
+                                            <span>Description of Retirement</span>
+                                        </li>
+                                        <li><a href="#">Investment planning </a>
+                                            <span>Description of Investment </span>
+                                        </li>
+                                        <li><a href="#">Insurance planning </a>
+                                            <span>Description of insurance </span>
+                                        </li>
+                                        <li><a href="#">Cash flow budgeting </a>
+                                            <span>Description of cash flow</span>
+                                        </li>
+                                        <li><a href="#">Loan applications </a>
+                                            <span>Description of loan</span>
+                                        </li>
+
+                                        <li><a class="view-more btn- btn-sm" href="solution.html">View more</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-3">
+                                    <h4 class="row mega-title">Cybersecurity & Network security</h4>
+                                    <ul class="description">
+                                        <li><a href="/product.html">Security risk assessment</a>
+                                            <span>No business is immune from security threats</span>
+                                        </li>
+                                        <li><a href="/product.html">Network security audit</a>
+                                            <span>Identifies and examines network vulnerabilities </span>
+                                        </li>
+                                        <li><a href="/product.html">Website security audit</a>
+                                            <span>We perform a manual assessment of your web application</span>
+                                        </li>
+                                        <li><a href="/product.html">Penetration testing</a>
+                                            <span>identify critical flaws in your network </span>
+                                        </li>
+                                        <li><a href="/product.html">Digital forensic investigations</a>
+                                            <span>assessing websites, servers, digital media and computer systems
+                                            </span>
+                                        </li>
+                                        <li><a href="/product.html">Business Continuity and Disaster Recovery
+                                                Planning</a>
+                                            <span>Plan audit & assessment,Business impact analysis </span>
+                                        </li>
+                                        <li><a href="/product.html">Emergency support</a>
+                                            <span>24/7 supports, resume business operations quickly </span>
+                                        </li>
+                                        <li><a class="view-more btn- btn-sm" href="/product.html">View more</a></li>
+
+                                    </ul>
+                                </div>
+                                <div class="col-md-3">
+                                    <h4 class="row mega-title">Web Design & Development</h4>
+                                    <ul class="description">
+                                        <li><a href="/webDev.html"><i class="fa fa-desktop"></i>Web Applications</a>
+                                            <span>we offer all kid of web based applications</span>
+                                        </li>
+                                        <li><a href="/webDev.html"><i class="fa fa-mobile"></i>Mobile Applications</a>
+                                            <span>We can develop IOS/Android mobile app </span>
+                                        </li>
+                                        <li><a href="/webDev.html"><i class="fa fa-database"></i>Database System</a>
+                                            <span>All kind of Data base for your business </span>
+                                        </li>
+                                        <li><a href="/webDev.html"><i class="fa fa-paint-brush"></i>UI/UX Design</a>
+                                            <span>We do all kid of UI/UX design</span>
+                                        </li>
+                                        <li><a href="/webDev.html"><i class="fa fa-certificate"></i>Poster and Banners
+                                            </a>
+                                            <span>Advanced experience in poster design</span>
+                                        </li>
+                                        <li><a href="/webDev.html"><i class="fa fa-address-card"></i>Business card </a>
+                                            <span>mind blowing reative business card</span>
+                                        </li>
+                                        <li><a href="/webDev.html"><i class="fa fa-paint-brush"></i>Logo design </a>
+                                            <span>Ideal Logo for your Business</span>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                                <div class="col-md-4">
+                                    <h4 class="row mega-title">Feature</h4>
+                                    <img class="img-responsive" src="./images/corporate_goals.svg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </li>
+                <li class="mega-drop-down"><a href="product.html"><i class="fa fa-cubes" aria-hidden="true"></i>Sectors</a>
+                    <div class="animated fadeIn mega-menu">
+                        <div class="mega-menu-wrap">
+                            <div class="row">
+
+                                <div class="col-md-2">
+                                    <h4 class="row mega-title">FINANCE</h4>
+                                    <ul class="stander">
+                                        <li>
+                                            <a href="/finance.html"></a>Financial planning </li>
+                                        <li>
+                                            <a href="/finance.html"></a>Saving planning</li>
+                                        <li>
+                                            <a href="/finance.html"></a> Retirement planning</li>
+                                        <li>
+                                            <a href="/finance.html"></a>Investment planning </li>
+                                        <li>
+                                            <a href="/finance.html"></a>Insurance planning Loan applications</li>
+                                        <li>
+                                            <a href="/finance.html"></a>Description of loan</li>
+                                        <li><a class="view-more btn- btn-sm" href="solution.html">View more</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-3">
+                                    <h4 class="row mega-title">IT & Network security</h4>
+                                    <ul class="stander">
+                                        <li>
+                                            <a href="/product.html"></a>Cybersecurity Solutions for Financial Institutions
+                                        </li>
+                                        <li>
+                                            <a href="/product.html"></a>Healthcare Systems</li>
+                                        <li>
+                                            <a href="/product.html"></a>Military Services</li>
+                                        <li>
+                                            <a href="/product.html"></a>Database and cloud security </li>
+                                        <li><a class="view-more btn- btn-sm" href="product.html">View more</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-3">
+                                    <h4 class="row mega-title">Web Design & Development</h4>
+                                    <ul class="icon-des">
+                                        <li><a href="#"><i class="fa fa-desktop"></i>Web Applications</a>
+                                            <span>we offer all kid of web based applications</span>
+                                        </li>
+                                        <li><a href="#"><i class="fa fa-mobile"></i>Mobile Applications</a>
+                                            <span>We can develop IOS/Android mobile app </span>
+                                        </li>
+
+
+                                    </ul>
+                                </div>
+                                <div class="col-md-4">
+                                    <h4 class="row mega-title">Contact Us</h4>
+                                    <ul class="icon-des">
+                                        <li><a href="#"><i class="fa fa-email"></i>abcd@gmail.com</a></li>
+                                        <li style="display: flex;">
+                                            <a href="#"><i class="fa fa-facebook"></i>Facebook</a> &nbsp;&nbsp;
+                                            <a href="#"><i class="fa fa-linkedin"></i>LinkedIn</a>
+                                        </li>
+                                        <li style="display: flex;">
+                                            <a href="#"><i class="fa fa-whatsapp"></i>WhatsApp</a> &nbsp;&nbsp;
+                                            <a href="#"><i class="fa fa-telegram"></i>Telegram</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+
+                <li><a href="contact.html"><i class="fa fa-phone"></i> Contact Us</a>
+                    <div class="contact">
+
+                    </div>
+                </li>
+                <li><a href="galary.html"><i class="fa fa-users"></i> About Us</a>
+
+                </li>
+                <a href="#" class="toggle-menu visible-xs-block">|||</a>
+            </ul>
+
+            </div>
+        </nav>
+    </header>
+    <!-- end of header -->
+
+    <!-- section -->
+    <div class="innerpage_banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Meet the best consultancy in the town</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end section -->
+
+    <!-- section -->
+    <div class="section layout_padding theme_bg">
+        <div class="container">
+            <div class="row">
+
+                <div class="container">
+                    <section id="services">
+                        <div id="service-list">
+                            <a-service class="card">
+                                <a href="https://pdf.as-a-service.dev" title="Word to PDF website" target="_blank" rel="noopener">
+                                    <!--           
+          <div class="logo-container">
+            <img class="logo" src="img/pdf.svg" alt="PDF-as-a-Service logo">
+          </div>
+-->
+                                    <div class="inner">
+                                        <h3 class="title">Word to PDF</h3>
+                                        <p>Transforms Microsoft Word documents to PDF.</p>
+                                    </div>
+                                </a>
+                            </a-service>
+                            <a-service class="card">
+                                <a href="https://screenshot.as-a-service.dev" title="Screenshot-as-a-Service website" target="_blank" rel="noopener">
+                                    <!--           
+          <div class="logo-container">
+            <img class="logo" src="img/screenshot.svg" alt="Screenshot-as-a-Service logo">
+          </div>
+-->
+                                    <div class="inner">
+                                        <h3 class="title">Webpage screenshot</h3>
+                                        <p>Returns a screenshot of the given webpage.</p>
+                                    </div>
+                                </a>
+                            </a-service>
+                            <a-service class="card">
+                                <a href="https://meme.as-a-service.dev" title="Meme-as-a-Service website" target="_blank" rel="noopener">
+                                    <!--           
+          <div class="logo-container">
+            <img class="logo" src="img/meme.svg" alt="Meme-as-a-Service logo">
+          </div>
+-->
+                                    <div class="inner">
+                                        <h3 class="title">Meme creator</h3>
+                                        <p>Created memes image from a base image and custom text.</p>
+                                    </div>
+                                </a>
+                            </a-service>
+                            <a-service class="card">
+                                <a href="https://trace.as-a-service.dev" title="Trace-as-a-Service website" target="_blank" rel="noopener">
+                                    <!--           
+          <div class="logo-container">
+            <img class="logo" src="img/trace.svg" alt="Trace-as-a-Service logo">
+          </div>
+-->
+                                    <div class="inner">
+                                        <h3 class="title">.jpg to .svg</h3>
+                                        <p>Transforms Jpeg or PNG bitmap images to SVG vector images.</p>
+                                    </div>
+                                </a>
+                            </a-service>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end section -->
+
+    <!-- section -->
+    <div class="section layout_padding">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="full center margin-bottom_30">
+                        <div class="heading_main text_align_center">
+                            <h2><span class="theme_color">CHOOSE A</span> PROFESSIONAL ADVISER</h2>
+                            <p class="large">Rise & Shine</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div id="demo" class="carousel slide" data-ride="carousel">
+
+                        <!-- The slideshow -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                        <img class="img-responsive" src="images/img1.png" alt="#" />
+                                    </div>
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                        <img class="img-responsive" src="images/img2.png" alt="#" />
+                                    </div>
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                        <img class="img-responsive" src="images/img3.png" alt="#" />
+                                    </div>
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                        <img class="img-responsive" src="images/img4.png" alt="#" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                        <img class="img-responsive" src="images/img1.png" alt="#" />
+                                    </div>
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                        <img class="img-responsive" src="images/img2.png" alt="#" />
+                                    </div>
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                        <img class="img-responsive" src="images/img3.png" alt="#" />
+                                    </div>
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                        <img class="img-responsive" src="images/img4.png" alt="#" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Left and right controls -->
+                        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#demo" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-12">
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to
+                        using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web
+                        sites still in their
+                    </p>
+                </div>
+
+                <div class="col-lg-12">
+                    <div class="full center">
+                        <a href="galary.html" class="hvr-radial-out button-theme">See More ></a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- end section -->
+
+    <!-- section -->
+    <div class="section layout_padding theme_bg">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-6 col-md-6 col-sm-12 white_fonts">
+                    <h3 class="small_heading">LETS RISE AND SHINE TOGETHER </h3>
+                    <p>we are committed to building a better working world </p>
+                    <p>with increased trust and confidence in business, sustainable growth, development of talent in all its forms, and greater collaboration. We want to build a better working world through our own actions and by engaging with like-minded
+                        organizations and individuals. This is our purpose — and why we exist as an organization. Running through our organization is a strong sense of obligation to serve a number of different stakeholders who count on us to deliver quality
+                        and excellence in everything we do. We want to use our global reach and scale to convene the conversation about the challenges facing economies and the capital markets. When business works better, the world works better.
+                    </p>
+                    <p><a href="galary.html" class="hvr-radial-out button-theme">Read more ></a></p>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-12 text_align_center">
+                    <div class="full">
+                        <img class="img-responsive" src="images/serviceTogether.svg" alt="#" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end section -->
+
+    <!-- section -->
+    <div class="section layout_padding">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="full">
+                        <div class="center">
+                            <img src="images/icon1.png" alt="#" />
+                        </div>
+                        <div class="center">
+                            <h4>Finace</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="full">
+                        <div class="center">
+                            <img src="images/icon2.png" alt="#" />
+                        </div>
+                        <div class="center">
+                            <h4> IT and Network Security</h4>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="full">
+                        <div class="center">
+                            <img src="images/icon3.png" alt="#" />
+                        </div>
+                        <div class="center">
+                            <h4>Developement and Design</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-10 offset-lg-1 margin-top_30">
+                    <div class="full text_align_center">
+                        <p>SUPPORTING YOU IN RAISING ORGANIZATIONAL PERFORMANCE</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- end section -->
+    <!-- Start Footer -->
+    <footer class="footer-box">
+        <div class="container">
+            <div class="row">
+                <!-- <div class="col-lg-12">
+              <div class="logo">
+                  <a href="index.html"><img src="images/footer_logo.png" style="height: 200px;"alt="#" /></a>
+              </div>
+          </div> -->
+                <div class="col-lg-12 white_fonts">
+                    <h4 class="text-align">Contact Us</h4>
+                </div>
+                <div class="margin-top_30 col-md-8 offset-md-2 white_fonts">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="full icon text_align_center">
+                                <img src="images/social1.png">
+                            </div>
+                            <div class="full white_fonts text_align_center">
+                                <p> <b style="color:#eb8224;">Afghanistan</b><br /> Shahr-e-Naw, Kabul, Afghanistan
+                                    <br />
+                                    <p>Email:qra.my@gmail.com <br /> Phone No.: 00601111785026</p>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="full icon text_align_center">
+                                <img src="images/social1.png">
+                            </div>
+                            <div class="full white_fonts text_align_center">
+                                <p><b style="color: #eb8224;">Malaysia</b><br /> South Wing Menara OBYU,Jalan PJU 8/8A, Damansara Perdana, Malaysia
+                                    <br />
+                                    <p>Email:qra.my@gmail.com <br /> Phone No.: 00601111785026</p>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="full icon text_align_center">
+                                <img src="images/social1.png">
+                            </div>
+                            <div class="full white_fonts text_align_center">
+                                <p><b style="color:#eb8224;">Australia</b><br /> 3 Sussex Street, Barangaroo Sydney, Australia
+                                    <br />
+                                    <p>Email:qra.my@gmail.com <br /> Phone No.: 00601111785026</p>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row white_fonts ">
+                <div class="col-lg-12">
+                    <div class="full">
+                        <div class="center">
+                            <ul class="social_icon">
+                                <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <div class="footer_bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p class="crp">© 2020 QRA consultancy . All Rights Reserved.</p>
+                    <ul class="bottom_menu">
+                        <li><a href="solution.html">Services</a></li>
+                        <li><a href="product.html">Sector</a></li>
+                        <li><a href="galary.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a href="#" id="scroll-to-top" class="hvr-radial-out"><i class="fa fa-angle-up"></i></a>
+    <script src="js/navbar.js"></script>
+
+    <!-- ALL JS FILES -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.pogo-slider.min.js"></script>
+    <script src="js/slider-index.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/form-validator.min.js"></script>
+    <script src="js/contact-form-script.js"></script>
+    <script src="js/isotope.min.js"></script>
+    <script src="js/images-loded.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
