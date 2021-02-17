@@ -34,11 +34,16 @@
 
     <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="css/navBar.css">
+    <link href="partnerSlider.css" rel="stylesheet/less" type="text/css">
+
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+
+    <style></style>
 
 </head>
 
@@ -195,7 +200,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h2>Become our partners</h2>
+                    <h2>Become our partners and clients</h2>
                 </div>
             </div>
         </div>
@@ -205,45 +210,40 @@
     <!-- section -->
     <div id="contact" class="contact-box">
         <div class="container">
+            <div class="row partner_row">
+                <div class="partner_column">
+                    <div class="partner_card">
+                        <img src="images/partenrs/cyberSecurity_Malaysia_logo.svg" alt="cybersecurity" style="width:100%">
 
-            <div class="row">
-
-                <div class="col-lg-7 col-sm-7 col-xs-12">
-                    <div class="contact-block">
-                        <form id="contactForm">
-                            <div class="row">
-                                <!-- <div class="col-md-6">
-							<div class="form-group">
-                                <h1>We provide the Consultancy</h1>
-							</div>                                 
-						</div>
-						<div class="col-md-6">
-                            <h1>some text will be here</h1>
-						</div>
-						<div class="col-md-12">
-							<div class="form-group">
-                                <h1>some text will be here</h1>
-							</div> 
-						</div> -->
-                                <div class="col-md-12">
-                                    <h4>
-                                        Infosys Gateway Sdn Bhd , a Bumiputra company, was established in 2007. It is now an MSC status company and registered with MOF and MIDES. Over the years and with our long-term commitment to the Information Technology industry, we have successfully established
-                                        ourselves as a qualified and professional company, which specializes in developing Hybrid Unified Threat Management (UTM) Network Security products ICT consulting, software applications and value added communication
-                                        networking solutions. We provide a broad range of ICT support, including design, management and deployment, relevant to any enterprise business needs, focusing on implementation strategies aimed at reducing enterprise
-                                        costs thus increasing business competitiveness in today’s fast-paced global economy. We take on the challenge of “Making It Happen” philosophy and embrace The New Economic Model (NEM), which is an economic plan
-                                        unveiled in Malaysia in 2010, encouraging companies to be more competitive, market and investor friendly.
-                                    </h4>
-                                </div>
-                            </div>
-                        </form>
                     </div>
                 </div>
 
+                <div class="partner_column">
+                    <div class="partner_card">
+                        <img src="images/partenrs/networks-sunway.png" alt="sunway" style="width:100%">
 
-                <div class="col-lg-5 col-sm-5 col-xs-12">
-                    <div class="left-contact">
+                    </div>
+                </div>
+                <div class="partner_column">
+                    <div class="partner_card">
+                        <img src="images/partenrs/mindef.png" alt="mindef" style="width:100%">
+
+                    </div>
+                </div>
+                <div class="partner_column">
+                    <div class="partner_card">
+                        <img src="images/partenrs/uptrendTech.png" alt="Uptrtend" style="width:100%">
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12 col-sm-12 col-xs-12">
+                    <div class="left-contact"><br>
+                        <hr><br>
                         <div class="media cont-line">
-                            <div class="media-left icon-b">
+                            <div class=" icon-b">
                                 <i class="fa fa-location-arrow" aria-hidden="true"></i>
                             </div>
                             <div class="media-body dit-right">
@@ -252,7 +252,7 @@
                             </div>
                         </div>
                         <div class="media cont-line">
-                            <div class="media-left icon-b">
+                            <div class=" icon-b">
                                 <i class="fa fa-envelope" aria-hidden="true"></i>
                             </div>
                             <div class="media-body dit-right">
@@ -261,7 +261,7 @@
                             </div>
                         </div>
                         <div class="media cont-line">
-                            <div class="media-left icon-b">
+                            <div class=" icon-b">
                                 <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
                             </div>
                             <div class="media-body dit-right">
@@ -346,6 +346,30 @@
     </div>
 
     <a href="#" id="scroll-to-top" class="hvr-radial-out"><i class="fa fa-angle-up"></i></a>
+    <script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+    </script>
+
     <script src="js/navbar.js"></script>
     <!-- ALL JS FILES -->
     <script src="js/jquery.min.js"></script>

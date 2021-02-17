@@ -47,19 +47,19 @@
 }
 
 .Abdelzaher-slider .item:nth-child(1) {
-    background-image: url(https://i.postimg.cc/ydgfDZLW/01.jpg);
+    background-image: url(../images/img1.png);
 }
 
 .Abdelzaher-slider .item:nth-child(2) {
-    background-image: url(https://i.postimg.cc/VLjV9XmC/02.jpg);
+    background-image: url(../images/img2.png);
 }
 
 .Abdelzaher-slider .item:nth-child(3) {
-    background-image: url(https://i.postimg.cc/gj46dM3h/03.jpg);
+    background-image: url(../images/pwtc/pwc1.jpeg);
 }
 
 .Abdelzaher-slider .item:nth-child(4) {
-    background-image: url(https://i.postimg.cc/WbbkSvPw/04.jpg);
+    background-image: url(../images/pwtc/pwc3.jpeg);
 }
 
 .Abdelzaher-slider .item.top {
