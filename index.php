@@ -13,7 +13,7 @@ https://stackoverflow.com/questions/40430462/multi-language-page-with-javascript
 
     <!-- Site Metas -->
     <title>Infosys Gateway</title>
-    <meta name="qra QRA" content="">
+    <meta name="infosys" content="">
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -71,119 +71,148 @@ https://stackoverflow.com/questions/40430462/multi-language-page-with-javascript
             <ul class="exo-menu">
                 <li>
                     <a class="companyName" href="/index.html">
-                        <img id="company_logo" src="./images/favicon2.png" /><span id="companyName">InfosysGateway</span>
+                        <img id="company_logo" src="./images/favicon.png" /><span id="companyName">Infosys Gateway</span>
                     </a>
                 </li>
-                <li class="mega-drop-down"><a href="solution.html"><i class="fa fa-cogs"></i> Solutions</a>
-                    <div class="animated fadeIn mega-menu">
-                        <div class="mega-menu-wrap">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <h4 class="row mega-title">Cybersecurity & Network security</h4>
-                                    <ul class="description">
-                                        <li><a href="/solution.html">Security risk assessment</a>
-                                            <span>No business is immune from security threats</span>
-                                        </li>
-                                        <li><a class="view-more btn- btn-sm" href="/solution.html">View more</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </li>
                 <li class="mega-drop-down"><a href="product.html"><i class="fa fa-cubes"
-                            aria-hidden="true"></i>Products</a>
+                    aria-hidden="true"></i>Products</a>
                     <div class="animated fadeIn mega-menu">
                         <div class="mega-menu-wrap">
                             <div class="row">
 
                                 <div class="col-md-4">
-                                    <h4 class="row mega-title">PROXY FILTERING</h4>
+                                    <h4 class="row mega-title">iDeras Network Security</h4>
                                     <ul class="stander">
                                         <li>
-                                            <a href="/finance.html">Target Category</a>
+                                            <a href="/product.html">Proxy Filtering</a>
                                         </li>
                                         <li>
-                                            <a href="/finance.html">Content Filter</a>
+                                            <a href="/product.html">Firewall</a>
                                         </li>
                                         <li>
-                                            <a href="/finance.html">ACL</a>
+                                            <a href="/product.html">IDPS</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="/product.html">Anti Ransomware</a>
                                         </li>
                                         <li>
-                                            <a href="/finance.html">Traffic Manager</a>
+                                            <a href="/product.html">VPN</a>
                                         </li>
                                         <li>
-                                            <a href="/finance.html">Scheduling</a>
+                                            <a href="/product.html">Data Leak Protection</a>
                                         </li>
-                                        <li><a class="view-more btn- btn-sm" href="solution.html">View more</a></li>
-                                    </ul>
-                                </div>
-                                <div class="col-md-4">
-                                    <h4 class="row mega-title">FIREWALL</h4>
-                                    <ul class="stander">
                                         <li>
                                             <a href="/product.html">Traffic Shaper</a>
                                         </li>
+                                        <li><a class="view-more btn- btn-sm" href="product.html">View more</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-4">
+                                    <h4 class="row mega-title">Management Console</h4>
+                                    <ul class="stander">
                                         <li>
-                                            <a href="/product.html">Global Block</a>
+                                            <a href="/product.html">Graphical Reports</a>
                                         </li>
                                         <li>
-                                            <a href="/product.html">DNSBL</a>
+                                            <a href="/product.html">iDeras Network Security Device Management</a>
                                         </li>
                                         <li>
-                                            <a href="/product.html">Priority Queuing</a>
+                                            <a href="/product.html">Logs Collections</a>
                                         </li>
                                         <li>
-                                            <a href="/product.html">Scheduling</a>
+                                            <a href="/product.html">Analysis and Visualization</a>
                                         </li>
+                                        <li>
+                                            <a href="/product.html">Notification and Alarms </a>
+                                        </li>
+                                        <li>
+                                            <a href="/product.html"> Health and Service Monitoring</a>
+                                        </li>
+
 
                                         <li><a class="view-more btn- btn-sm" href="product.html">View more</a></li>
                                     </ul>
                                 </div>
                                 <div class="col-md-4">
-                                    <h4 class="row mega-title">IDPS</h4>
-                                    <ul class="icon-des">
-                                        <li><a href="#"><i class="fa fa-database"></i>Data Leak Protection</a>
-                                            <span>Data Leak Protection is one of the ...</span>
-                                        </li>
-                                        <li><a href="#"><i class="fa fa-save"></i>Anti Ransomware</a>
-                                            <span>Anti Ransomware Anti Ransomware .,,, </span>
-                                        </li>
-                                        <li><a href="#"><i class="fa fa-yandex-international"></i> Sniffing Traffic</a>
-                                            <span> SniffingTraffic Anti Ransomware .,,, </span>
-                                        </li>
-                                        <li><a href="#"><i class="fa fa-fire"></i>WAP</a>
-                                            <span>Anti Ransomware Anti Ransomware .,,, </span>
-                                        </li>
-                                        <li><a href="#"><i class="fa fa-stack-exchange"></i>Emerging ThreatControl</a>
-                                            <span>Emerging ThreatControl Ransomware .,,, </span>
-                                        </li>
-                                    </ul>
+                                    <h4 class="row mega-title">&nbsp;&nbsp;</h4>
+                                    <img class="img-responsive" src="images/Security_on.svg" alt="#" style="height: 250px;" />
                                 </div>
+
+
+
                             </div>
                         </div>
                     </div>
                 </li>
 
+                <li class="mega-drop-down"><a href="solution.html"><i class="fa fa-cogs"></i>Solutions</a>
+                    <div class="animated fadeIn mega-menu">
+                        <div class="mega-menu-wrap">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <h4 class="row mega-title text-center">iDeras Cloud Security</h4>
+                                    <ul class="stander">
+                                        <li>
+                                            <a href="/product.html">IDPS</a>
+                                        </li>
+                                        <li>
+                                            <a href="/product.html">Firewall</a>
+                                        </li>
+                                        <li>
+                                            <a href="/product.html">VPN</a>
+                                        </li>
+                                        <li><a class="view-more btn- btn-sm" href="/solution.html">View more</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-4">
+                                    <h4 class="row mega-title">&nbsp;&nbsp;</h4>
+                                    <ul class="stander">
+                                        <li>
+                                            <a href="/product.html">Shadow IT Control</a>
+                                        </li>
+                                        <li>
+                                            <a href="/product.html">Web Filter</a>
+                                        </li>
+                                        <li>
+                                            <a href="/product.html">Policy  Management and Application Control</a>
+                                        </li>
+
+                                        <li><a class="view-more btn- btn-sm" href="/solution.html">View more</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-4">
+                                    <h4 class="row mega-title">&nbsp;&nbsp;</h4>
+
+                                    <img class="img-responsive" src="images/cloudSecurity.png" alt="#" style="height: 160px;" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </li>
+
                 <li class="images-drop-down"><a href="partner.html"><i class="fa fa-group"></i>Partners</a>
                     <div class="Images animated fadeIn">
                         <div class="col-md-3">
-                            <h4>Sunway</h4>
-                            <img class="img-responsive" src="./images/partenrs/networks-sunway.png" style="width: 100%; height: 200px;">
+                            <h4>Our partners and Customers</h4>
+                            <!-- <img class="img-responsive" src="./images/partenrs/networks-sunway.png" style="width: 100%; height: 200px;"> -->
                         </div>
                         <!-- <div class="col-md-3">
                             <h4>MINDEF</h4>
                             <img class="img-responsive" src="./images/partenrs/mindef.png" style="width: 80px; height: 100px;">
                         </div> -->
-                        <div class="col-md-3">
+                        <!-- <div class="col-md-3">
                             <h4>Cybersecurity Malaysia</h4>
                             <img class="img-responsive" src="./images/partenrs/cyberSecurity_Malaysia_logo.svg" style="width: 100%; height: 200px;">
-                        </div>
+                        </div> -->
 
 
                     </div>
 
+                </li>
+                <li>
+                    <a href="gallery.html"><i class="fa fa-photo"></i>Galleries</a>
                 </li>
                 <li><a href="contact.html"><i class="fa fa-phone"></i> Contact Us</a>
                     <div class="contact">
@@ -191,9 +220,7 @@ https://stackoverflow.com/questions/40430462/multi-language-page-with-javascript
                     </div>
                 </li>
 
-                <li>
-                    <a href="galary.html"><i class="fa fa-photo"></i>Galaries</a>
-                </li>
+
                 <a href="#" class="toggle-menu visible-xs-block">|||</a>
             </ul>
 
@@ -209,19 +236,19 @@ https://stackoverflow.com/questions/40430462/multi-language-page-with-javascript
     <div class="Abdelzaher-slider" data-change="5000">
         <!-- write number in data-change to start the change or "none" to stop the change -->
         <div class="item active">
-            <h1 class="example">slide number 1</h1>
+            <!-- <h1 class="example">slide number 1</h1> -->
             <!-- This an example  you can remove it in any time -->
         </div>
         <div class="item">
-            <h1 class="example">slide number 2</h1>
+            <!-- <h1 class="example">slide number 2</h1> -->
             <!-- This an example  you can remove it in any time -->
         </div>
         <div class="item">
-            <h1 class="example">slide number 3</h1>
+            <!-- <h1 class="example">slide number 3</h1> -->
             <!-- This an example  you can remove it in any time -->
         </div>
         <div class="item">
-            <h1 class="example">slide number 4</h1>
+            <!-- <h1 class="example">slide number 4</h1> -->
             <!-- This an example  you can remove it in any time -->
         </div>
         <div class="controls"></div>
@@ -259,28 +286,8 @@ https://stackoverflow.com/questions/40430462/multi-language-page-with-javascript
 
                 <div class="col-lg-12 col-md-12 col-sm-12 white_fonts">
                     <h1><b>Who we are</b> </h1>
-                    <h3 class="small_heading">YOUR RELIABLE NETWORK SECURITY</h3>
-                    <h4>Infosys Gateway Sdn Bhd , a Bumiputra company, was established in 2007. It is now an MSC status company and registered with MOF and MIDES. Over the years and with our long-term commitment to the Information Technology industry, we
-                        have successfully established ourselves as a qualified and professional company, which specializes in developing Hybrid Unified Threat Management (UTM) Network Security products ICT consulting, software applications and value added
-                        communication networking solutions.</h4>
-                    <p>
-                        We provide a broad range of ICT support, including design, management and deployment, relevant to any enterprise business needs, focusing on implementation strategies aimed at reducing enterprise costs thus increasing business competitiveness in today’s
-                        fast-paced global economy. We take on the challenge of “Making It Happen” philosophy and embrace The New Economic Model (NEM), which is an economic plan unveiled in Malaysia in 2010, encouraging companies to be more competitive,
-                        market and investor friendly.
-                    </p>
-                    <p><b> 
-                        IT Business Era
+                    <h3 class="small_heading">YOUR RELIABLE SECURITY PARTNER</h3>
 
-                    </b></p>
-                    <p>
-                        In today’s highly competitive and increasingly global marketplace , corporations are beginning to use their networks as a strategic advantage – one that empowers the business to gain an edge over their competitors. Networks are becoming a more visible,
-                        integral and essential part of a company’s business. IT organizations are being asked to evolve their existing network information systems to achieve lower operating costs , increased user access to critical business data and greater
-                        flexibility in responding to an increasingly demanding business climate. The end result is a steady stream of new technologies, constant pressure for new and improved network services, and increased requirements for higher bandwidths.
-                        Responding to these pressures in a piecemeal fashion with multiple , compartmentalized purchases and frequent, uncoordinated changes in policy, will not keep the network ahead of the demand curve . Nor will it keep the enterprise
-                        ahead of the competition. Without a framework for guiding decisions, policy and new technology acquisitions , building an efficient and effective communications capability is unlikely, directly impacting the quality of the enterprise’s
-                        network. Infosys Gateway’s development team started its R&D work in response to a definite market demand for an affordable, inexpensive network security device incorporating the security features for network protection with a security
-                        appliance. Infosys Gateway conceptualized the design for such an appliance, undertaking further research and testing to refine the original formula, creating an innovative, unique, Malaysian product for the world market.
-                    </p>
                     <a href="/contact.html" class="hvr-radial-out button-theme">Get in touch ></a>
                 </div>
             </div>
@@ -297,7 +304,7 @@ https://stackoverflow.com/questions/40430462/multi-language-page-with-javascript
                     <div class="full center margin-bottom_30">
                         <div class="heading_main text_align_center">
                             <h2><span class="theme_color">OUR COMPANY</span></h2>
-                            <p class="large">YOUR RELIABLE NETWORK SECURITY</p>
+                            <p class="large">YOUR RELIABLE SECURITY PARTNER</p>
                         </div>
                     </div>
                 </div>
@@ -318,7 +325,7 @@ https://stackoverflow.com/questions/40430462/multi-language-page-with-javascript
                     </div>
                 </div>
 
-                <div class="col-lg-12">
+                <!-- <div class="col-lg-12">
                     <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to
                         using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web
                         sites still in their
@@ -329,7 +336,7 @@ https://stackoverflow.com/questions/40430462/multi-language-page-with-javascript
                     <div class="full center">
                         <a href="solution.html" class="hvr-radial-out button-theme">See More ></a>
                     </div>
-                </div>
+                </div> -->
 
             </div>
 
@@ -342,7 +349,7 @@ https://stackoverflow.com/questions/40430462/multi-language-page-with-javascript
         <div class="container">
             <div class="row">
 
-                <div class="col-lg-6 col-md-6 col-sm-12 white_fonts">
+                <!-- <div class="col-lg-6 col-md-6 col-sm-12 white_fonts">
                     <h3 class="small_heading">Our Mission </h3>
                     <p>TO PROVIDE THE SERVICES ASSURING THE CLIENTS ARE REMAINING IN WELL CONFIDENT REGARDING SECURITY AND LOSING ANY DATA</p>
                     <p><a href="solution.html" class="hvr-radial-out button-theme">Read more ></a></p>
@@ -352,7 +359,7 @@ https://stackoverflow.com/questions/40430462/multi-language-page-with-javascript
                     <div class="full">
                         <img class="img-responsive" src="images/education.svg" alt="#" />
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
@@ -361,7 +368,7 @@ https://stackoverflow.com/questions/40430462/multi-language-page-with-javascript
     <div class="section layout_padding theme_bg_vision">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-12 text_align_center">
+                <!-- <div class="col-lg-6 col-md-6 col-sm-12 text_align_center">
                     <div class="full">
                         <img class="img-responsive" src="images/vision.svg" alt="#" />
                     </div>
@@ -371,7 +378,7 @@ https://stackoverflow.com/questions/40430462/multi-language-page-with-javascript
                     <p>Infosysgateway is one of leading local network security company ...
                     </p>
                     <p><a href="solution.html" class="hvr-radial-out button-theme">Read more ></a></p>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
@@ -382,11 +389,11 @@ https://stackoverflow.com/questions/40430462/multi-language-page-with-javascript
             <div class="row">
 
 
-                <div class="col-lg-10 offset-lg-1 margin-top_30">
+                <!-- <div class="col-lg-10 offset-lg-1 margin-top_30">
                     <div class="full text_align_center">
                         <p>SUPPORTING YOU IN RAISING ORGANIZATIONAL <u>security</u> PERFORMANCE</p>
                     </div>
-                </div>
+                </div> -->
 
             </div>
         </div>
@@ -427,25 +434,10 @@ https://stackoverflow.com/questions/40430462/multi-language-page-with-javascript
                                 <h4 class="text-align">Certification</h4>
                             </div>
                             <div class="full ">
-                                <img src="images/Logo-MYCC_new-01-300x278.jpg" style="width: 150px; height: 150px;">
                                 <img src="images/commoncriteria_certified_logo-01-300x281.png" style="width: 150px; height: 150px;">
                                 <img src="images/MSC_Status.png" style="width: 150px; height: 150px;">
+                                <img src="images/Logo-MYCC_new-01-300x278.jpg" style="width: 150px; height: 150px;">
                             </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <div class="row white_fonts ">
-                <div class="col-lg-12">
-                    <div class="full">
-                        <div class="center">
-                            <ul class="social_icon">
-                                <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                            </ul>
                         </div>
                     </div>
                 </div>
@@ -462,7 +454,7 @@ https://stackoverflow.com/questions/40430462/multi-language-page-with-javascript
                     <ul class="bottom_menu">
                         <li><a href="solution.html">Solutions</a></li>
                         <li><a href="product.html">Products</a></li>
-                        <li><a href="galary.html">Galaries</a></li>
+                        <li><a href="gallery.html">Galleries</a></li>
                         <li><a href="contact.html">Contact Us</a></li>
                         <li><a href="#">Terms of Service</a></li>
                         <li><a href="#">Privacy</a></li>
