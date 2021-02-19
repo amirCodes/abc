@@ -233,45 +233,84 @@ https://stackoverflow.com/questions/40430462/multi-language-page-with-javascript
  -->
 
     <!-- You must write number in data-change to start the change or "none" to stop the change -->
-    <div class="Abdelzaher-slider" data-change="5000">
-        <!-- write number in data-change to start the change or "none" to stop the change -->
-        <div class="item active">
-            <!-- <h1 class="example">slide number 1</h1> -->
-            <!-- This an example  you can remove it in any time -->
-        </div>
-        <div class="item">
-            <!-- <h1 class="example">slide number 2</h1> -->
-            <!-- This an example  you can remove it in any time -->
-        </div>
-        <div class="item">
-            <!-- <h1 class="example">slide number 3</h1> -->
-            <!-- This an example  you can remove it in any time -->
-        </div>
-        <div class="item">
-            <!-- <h1 class="example">slide number 4</h1> -->
-            <!-- This an example  you can remove it in any time -->
-        </div>
+    <!-- <div class="Abdelzaher-slider" data-change="5000"> -->
+    <!-- write number in data-change to start the change or "none" to stop the change -->
+    <!-- <div class="item active"> -->
+    <!-- <h1 class="example">slide number 1</h1> -->
+    <!-- This an example  you can remove it in any time -->
+    <!-- </div>
+        <div class="item"> -->
+    <!-- <h1 class="example">slide number 2</h1> -->
+    <!-- This an example  you can remove it in any time -->
+    <!-- </div>
+        <div class="item"> -->
+    <!-- <h1 class="example">slide number 3</h1> -->
+    <!-- This an example  you can remove it in any time -->
+    <!-- </div>
+        <div class="item"> -->
+    <!-- <h1 class="example">slide number 4</h1> -->
+    <!-- This an example  you can remove it in any time -->
+    <!-- </div>
         <div class="controls"></div>
         <div class="controlsButtons">
             <button class="prev"><i class="fa fa-chevron-left"></i></button>
             <button class="next"><i class="fa fa-chevron-right"></i></button>
         </div>
-
-
-    </div>
+    </div> -->
 
     <!-- End header -->
 
     <!-- section -->
-    <!-- <div class="innerpage_banner">
-        <div class="container">
-           <div class="row"> 
-              <div class="col-md-12">
-                 <h2>Create Your CV</h2>
-              </div>
-           </div>
+
+    <div class="carousel slide" data-ride="carousel" id="carouselExampleIndicators">
+        <ol class="carousel-indicators">
+            <li class="active" data-slide-to="0" data-target="#carouselExampleIndicators"></li>
+            <li data-slide-to="1" data-target="#carouselExampleIndicators"></li>
+            <li data-slide-to="2" data-target="#carouselExampleIndicators"></li>
+            <li data-slide-to="3" data-target="#carouselExampleIndicators"></li>
+        </ol>
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+                <img alt="First slide" class="d-block w-100" src="../images/bg2.png">
+                <!-- <div class="carousel-caption d-none d-md-block">
+                    <h5 style="color: #eb8224;">Your reliable security PROVIDER</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nulla, tempore. Deserunt excepturi quas vero.</p>
+                </div> -->
+            </div>
+            <div class="carousel-item">
+                <img alt="Second slide" class="d-block w-100" src="../images/bg1.jpg" style="height: auto;">
+                <!-- <div class="carousel-caption d-none d-md-block">
+                     <h5>Slider One Item</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nulla, tempore. Deserunt excepturi quas vero.</p> 
+            </div> -->
+            </div>
+            <div class="carousel-item">
+                <img alt="Third slide" class="d-block w-100" src="../images/sec-inn.gif">
+                <!-- <div class="carousel-caption d-none d-md-block">
+                    <h5 style="color: #eb8224;">Your reliable security PROVIDER</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nulla, tempore. Deserunt excepturi quas vero.</p>
+                </div> -->
+            </div>
+            <div class="carousel-item">
+                <img alt="Fourth slide" class="d-block w-100" src="../images/bg6.png">
+                <!-- <div class="carousel-caption d-none d-md-block">
+                    <h5 style="color: #eb8224;">Your reliable security PROVIDER</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nulla, tempore. Deserunt excepturi quas vero.</p>
+                </div> -->
+            </div>
         </div>
-     </div> -->
+        <a class="carousel-control-prev controlsButtons" data-slide="prev" href="#carouselExampleIndicators" role="button">
+            <span aria-hidden="true" class="carousel-control-prev-icon"> </span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" data-slide="next" href="#carouselExampleIndicators" role="button">
+            <span aria-hidden="true" class="carousel-control-next-icon"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+
     <!-- end section -->
 
     <!-- section -->
@@ -316,7 +355,7 @@ https://stackoverflow.com/questions/40430462/multi-language-page-with-javascript
 
                         <!-- The slideshow -->
                         <div class="carousel-inner">
-
+                            <p>we provide....</p>
 
                         </div>
 
