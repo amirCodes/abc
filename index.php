@@ -71,7 +71,7 @@ https://stackoverflow.com/questions/40430462/multi-language-page-with-javascript
             <ul class="exo-menu">
                 <li>
                     <a class="companyName" href="/index.html">
-                        <img id="company_logo" src="./images/favicon.png" /><span id="companyName">Infosys Gateway</span>
+                        <img id="company_logo" src="./images/favicon.png" /><span id="companyName">&nbsp;&nbsp;Infosys Gateway</span>
                     </a>
                 </li>
                 <li class="mega-drop-down"><a href="product.html"><i class="fa fa-cubes"
