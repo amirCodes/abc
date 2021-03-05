@@ -71,7 +71,7 @@ https://stackoverflow.com/questions/40430462/multi-language-page-with-javascript
             <ul class="exo-menu">
                 <li>
                     <a class="companyName" href="/index.html">
-                        <img id="company_logo" src="./images/favicon.png" /><span id="companyName">&nbsp;&nbsp;Infosys Gateway</span>
+                        <img id="company_logo" src="./images/favicon.png" /><span id="companyName">Infosys Gateway</span>
                     </a>
                 </li>
                 <li class="mega-drop-down"><a href="product.html"><i class="fa fa-cubes"
@@ -268,36 +268,81 @@ https://stackoverflow.com/questions/40430462/multi-language-page-with-javascript
             <li data-slide-to="1" data-target="#carouselExampleIndicators"></li>
             <li data-slide-to="2" data-target="#carouselExampleIndicators"></li>
             <li data-slide-to="3" data-target="#carouselExampleIndicators"></li>
+            <li data-slide-to="4" data-target="#carouselExampleIndicators"></li>
+            <li data-slide-to="5" data-target="#carouselExampleIndicators"></li>
+            <li data-slide-to="6" data-target="#carouselExampleIndicators"></li>
+            <li data-slide-to="7" data-target="#carouselExampleIndicators"></li>
+            <li data-slide-to="8" data-target="#carouselExampleIndicators"></li>
+
+
         </ol>
         <div class="carousel-inner">
 
             <div class="carousel-item active">
-                <img alt="First slide" class="d-block w-100" src="../images/bg2.png">
+                <img alt="First slide" class="d-block w-100" src="../images/backgroundImages/bg3.png" style="margin: -4px;">
                 <!-- <div class="carousel-caption d-none d-md-block">
-                    <h5 style="color: #eb8224;">Your reliable security PROVIDER</h5>
+                    <h5 style="color: #eb8224;">YOUR RELIABLE SECURITY PARTNER</h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nulla, tempore. Deserunt excepturi quas vero.</p>
                 </div> -->
             </div>
             <div class="carousel-item">
-                <img alt="Second slide" class="d-block w-100" src="../images/bg1.jpg" style="height: auto;">
+                <img alt="Second slide" class="d-block w-100" src="../images/backgroundImages/bg3.png" style="height: 100%; margin: -4px;">
                 <!-- <div class="carousel-caption d-none d-md-block">
                      <h5>Slider One Item</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nulla, tempore. Deserunt excepturi quas vero.</p> 
             </div> -->
             </div>
             <div class="carousel-item">
-                <img alt="Third slide" class="d-block w-100" src="../images/sec-inn.gif">
-                <!-- <div class="carousel-caption d-none d-md-block">
-                    <h5 style="color: #eb8224;">Your reliable security PROVIDER</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nulla, tempore. Deserunt excepturi quas vero.</p>
-                </div> -->
+                <img alt="Third slide" class="d-block w-100" src="../images/backgroundImages/bg44.png" style="margin: -4px;">
+                <div class="carousel-caption d-none d-md-block" style="   bottom: 480px; margin-left: -12%;  ">
+                    <h5 style="color: #eb8224;">YOUR RELIABLE SECURITY PARTNER </h5>
+                    <p>Malaysia First Innovation Unified Network Security Application</p>
+                </div>
             </div>
             <div class="carousel-item">
-                <img alt="Fourth slide" class="d-block w-100" src="../images/bg6.png">
-                <!-- <div class="carousel-caption d-none d-md-block">
-                    <h5 style="color: #eb8224;">Your reliable security PROVIDER</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nulla, tempore. Deserunt excepturi quas vero.</p>
-                </div> -->
+                <!-- <img alt="Fourth slide" class="d-block w-100" src="../images/sec-inn22.gif" height="50%" style="margin: -4px;"> -->
+                <video width="100%" height="100%" class="d-block w-100" controls="controls" loop autoplay muted playsinline>
+                    <source src="../images/backgroundImages/vd.mp4" type="video/mp4">
+                  </video>
+                <div class="carousel-caption d-none d-md-block" style="   bottom: 730px;margin-left: -35%;  ">
+                    <h5 style="color: #eb8224;">YOUR RELIABLE SECURITY PARTNER</h5>
+                    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nulla, tempore. Deserunt excepturi quas vero.</p> -->
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img alt="Fifth slide" class="d-block w-100" src="../images/backgroundImages/bg9.png" height="50%" style="margin: -4px;">
+                <div class="carousel-caption d-none d-md-block" style="   bottom: 250px; margin-left: -12%;  ">
+                    <!-- <h6 style="color: #eb8224;">YOUR RELIABLE SECURITY PARTNER</h6> -->
+                    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nulla, tempore. Deserunt excepturi quas vero.</p> -->
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img alt="Sixth slide" class="d-block w-100" src="../images/backgroundImages/bg8.png" height="50%" style="margin: -4px;">
+                <div class="carousel-caption d-none d-md-block" style="   bottom: 250px; margin-left: -12%;  ">
+                    <!-- <h6 style="color: #eb8224;">YOUR RELIABLE SECURITY PARTNER</h6> -->
+                    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nulla, tempore. Deserunt excepturi quas vero.</p> -->
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img alt="Sevn slide" class="d-block w-100" src="../images/backgroundImages/bg9.png" height="50%" style="margin: -4px;">
+                <div class="carousel-caption d-none d-md-block" style="   bottom: 250px; margin-left: -12%;  ">
+                    <!-- <h6 style="color: #eb8224;">YOUR RELIABLE SECURITY PARTNER</h6> -->
+                    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nulla, tempore. Deserunt excepturi quas vero.</p> -->
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img alt="Eight slide" class="d-block w-100" src="../images/backgroundImages/bg11.png" height="40%" style="margin: -4px;">
+                <div class="carousel-caption d-none d-md-block" style="   bottom: 250px; margin-left: -12%;  ">
+                    <!-- <h6 style="color: #eb8224;">YOUR RELIABLE SECURITY PARTNER</h6> -->
+                    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nulla, tempore. Deserunt excepturi quas vero.</p> -->
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img alt="Ten slide" class="d-block w-100" src="../images/backgroundImages/bg7-2.png" height="40%" style="margin: -4px;">
+                <div class="carousel-caption d-none d-md-block" style="   bottom: 250px; margin-left: -12%;  ">
+                    <!-- <h6 style="color: #eb8224;">YOUR RELIABLE SECURITY PARTNER</h6> -->
+                    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nulla, tempore. Deserunt excepturi quas vero.</p> -->
+                </div>
             </div>
         </div>
         <a class="carousel-control-prev controlsButtons" data-slide="prev" href="#carouselExampleIndicators" role="button">
@@ -355,12 +400,22 @@ https://stackoverflow.com/questions/40430462/multi-language-page-with-javascript
 
                         <!-- The slideshow -->
                         <div class="carousel-inner">
-                            <p>we provide....</p>
-
+                            <p>
+                                Infosys Gateway is the first network security company in Malaysia to introduce a locally developed, innovative information security solution that constantly evolves to meet the ever-growing demands of today’s fast-paced global economy. We specialize in
+                                developing Hybrid Unified Threat Management (UTM) Network Security products, ICT consulting, software applications and value-added communication networking solutions.
+                            </p>
+                            <P class="a">
+                                Our highly-trained team of experts are committed to arming your company with a broad range of relevant ICT support services. We focus on implementing long-term strategies aimed at reducing costs for your enterprise to increase the competitiveness of your
+                                business in an international market.
+                            </p>
+                            <p>
+                                iDeras empowers IT networks to combat cyber-crime. We keep your resources safe from malware at the lowest possible cost.
+                            </p>
+                            <p>
+                                Other Hybrid Network Platforms (HNP) stop at identifying unified threat management (UTM). iDeras takes it one step further by providing multi-function security that is built on iDeras hybridOS, and open, modular and customisable software platforms to
+                                deliver core networking and security functions.
+                            </p>
                         </div>
-
-
-
                     </div>
                 </div>
 

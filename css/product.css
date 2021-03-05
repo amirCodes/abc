@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+body {
+    background-color: #2F1855;
+    font-family: 'Dosis', sans-serif;
+}
+
+.product_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.title {
+    font-size: 2em;
+    width: 100%;
+    text-align: center;
+}
+
+.title--white {
+    color: #fff;
+}
+
+.pricing-card {
+    width: 500px;
+    height: 450px;
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+}
+
+.pricing-card:hover {
+    transform: translateY(-5px);
+    transition: transform .5s;
+}
+
+.pricing-card_header {
+    width: 100%;
+    color: #fff;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pricing-card_header:after {
+    content: '';
+    width: 100%;
+    height: 3em;
+    background-color: inherit;
+    position: absolute;
+    top: 45px;
+    left: 0;
+    transform: skewY(7deg);
+}
+
+.princing-card_header--ultimate {
+    background-color: #8e44ad;
+}
+
+.princing-card_header--standard {
+    background-color: #35BDD0;
+}
+
+.princing-card_header--super {
+    background-color: #2980b9;
+}
+
+.princing-card_header--basic {
+    background-color: #1abc9c;
+}
+
+.pricing-card_title {
+    z-index: 1;
+}
+
+.pricing-card_cost {
+    font-size: 2em;
+}
+
+.pricing-card_money-symbol {
+    font-size: 1em;
+    position: absolute;
+    top: .8em;
+    right: 1.2em;
+}
+
+.pricing-card_list-info {
+    width: 90%;
+    padding: 0;
+}
+
+.pricing-card_item {
+    font-size: 1.2em;
+    text-align: left;
+    list-style: none;
+    padding: .5em;
+    border-bottom: .02em solid #ecf0f1;
+}
+
+.btn {
+    width: 90%;
+    padding: .5em 3em;
+    position: relative;
+    bottom: 1em;
+    border: 0;
+    font-size: 1.1em;
+    color: #fff;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    cursor: pointer;
+    transition: all;
+}
+
+.btn--ultimate {
+    background-color: #8e44ad;
+}
+
+.btn--standard {
+    background-color: #f1c40f;
+}
+
+.btn--super {
+    background-color: #2980b9;
+}
+
+.btn--basic {
+    background-color: #1abc9c;
+}
