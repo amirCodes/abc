@@ -271,8 +271,8 @@ https://stackoverflow.com/questions/40430462/multi-language-page-with-javascript
             <li data-slide-to="4" data-target="#carouselExampleIndicators"></li>
             <li data-slide-to="5" data-target="#carouselExampleIndicators"></li>
             <li data-slide-to="6" data-target="#carouselExampleIndicators"></li>
-            <li data-slide-to="7" data-target="#carouselExampleIndicators"></li>
-            <li data-slide-to="8" data-target="#carouselExampleIndicators"></li>
+            <!-- <li data-slide-to="7" data-target="#carouselExampleIndicators"></li> -->
+            <!-- <li data-slide-to="8" data-target="#carouselExampleIndicators"></li> -->
 
 
         </ol>
@@ -286,7 +286,7 @@ https://stackoverflow.com/questions/40430462/multi-language-page-with-javascript
                 </div> -->
             </div>
             <div class="carousel-item">
-                <img alt="Second slide" class="d-block w-100" src="../images/backgroundImages/bg3.png" style="height: 100%; margin: -4px;">
+                <img alt="Second slide" class="d-block w-100" src="../images/backgroundImages/bg2.gif" style="height: 100%; margin: -4px;">
                 <!-- <div class="carousel-caption d-none d-md-block">
                      <h5>Slider One Item</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nulla, tempore. Deserunt excepturi quas vero.</p> 
@@ -311,20 +311,6 @@ https://stackoverflow.com/questions/40430462/multi-language-page-with-javascript
             </div>
             <div class="carousel-item">
                 <img alt="Fifth slide" class="d-block w-100" src="../images/backgroundImages/bg9.png" height="50%" style="margin: -4px;">
-                <div class="carousel-caption d-none d-md-block" style="   bottom: 250px; margin-left: -12%;  ">
-                    <!-- <h6 style="color: #eb8224;">YOUR RELIABLE SECURITY PARTNER</h6> -->
-                    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nulla, tempore. Deserunt excepturi quas vero.</p> -->
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img alt="Sixth slide" class="d-block w-100" src="../images/backgroundImages/bg8.png" height="50%" style="margin: -4px;">
-                <div class="carousel-caption d-none d-md-block" style="   bottom: 250px; margin-left: -12%;  ">
-                    <!-- <h6 style="color: #eb8224;">YOUR RELIABLE SECURITY PARTNER</h6> -->
-                    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nulla, tempore. Deserunt excepturi quas vero.</p> -->
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img alt="Sevn slide" class="d-block w-100" src="../images/backgroundImages/bg9.png" height="50%" style="margin: -4px;">
                 <div class="carousel-caption d-none d-md-block" style="   bottom: 250px; margin-left: -12%;  ">
                     <!-- <h6 style="color: #eb8224;">YOUR RELIABLE SECURITY PARTNER</h6> -->
                     <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nulla, tempore. Deserunt excepturi quas vero.</p> -->
@@ -359,14 +345,14 @@ https://stackoverflow.com/questions/40430462/multi-language-page-with-javascript
     <!-- end section -->
 
     <!-- section -->
-    <div class="section layout_padding theme_bg" id="about">
+    <!-- <div class="section layout_padding theme_bg" id="about">
         <div class="container">
             <div class="row">
-                <!-- <div class="col-lg-4 col-md-12 col-sm-12 text_align_center">
+                <div class="col-lg-4 col-md-12 col-sm-12 text_align_center">
                     <div class="full">
                         <img class="img-responsive" src="images/whoWeare.svg" alt="#" />
                     </div>
-                </div> -->
+                </div>
 
                 <div class="col-lg-12 col-md-12 col-sm-12 white_fonts">
                     <h1><b>Who we are</b> </h1>
@@ -376,7 +362,7 @@ https://stackoverflow.com/questions/40430462/multi-language-page-with-javascript
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- end section -->
 
     <!-- section -->
@@ -399,7 +385,8 @@ https://stackoverflow.com/questions/40430462/multi-language-page-with-javascript
                     <div id="demo" class="carousel slide" data-ride="carousel">
 
                         <!-- The slideshow -->
-                        <div class="carousel-inner">
+                        <!-- <div class="carousel-inner"> -->
+                        <div class="full text_align_left">
                             <p>
                                 Infosys Gateway is the first network security company in Malaysia to introduce a locally developed, innovative information security solution that constantly evolves to meet the ever-growing demands of today’s fast-paced global economy. We specialize in
                                 developing Hybrid Unified Threat Management (UTM) Network Security products, ICT consulting, software applications and value-added communication networking solutions.
@@ -418,32 +405,17 @@ https://stackoverflow.com/questions/40430462/multi-language-page-with-javascript
                         </div>
                     </div>
                 </div>
-
-                <!-- <div class="col-lg-12">
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to
-                        using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web
-                        sites still in their
-                    </p>
-                </div>
-
-                <div class="col-lg-12">
-                    <div class="full center">
-                        <a href="solution.html" class="hvr-radial-out button-theme">See More ></a>
-                    </div>
-                </div> -->
-
             </div>
-
         </div>
     </div>
     <!-- end section -->
 
     <!-- section -->
-    <div class="section layout_padding theme_bg">
+    <!-- <div class="section layout_padding theme_bg">
         <div class="container">
             <div class="row">
 
-                <!-- <div class="col-lg-6 col-md-6 col-sm-12 white_fonts">
+                <div class="col-lg-6 col-md-6 col-sm-12 white_fonts">
                     <h3 class="small_heading">Our Mission </h3>
                     <p>TO PROVIDE THE SERVICES ASSURING THE CLIENTS ARE REMAINING IN WELL CONFIDENT REGARDING SECURITY AND LOSING ANY DATA</p>
                     <p><a href="solution.html" class="hvr-radial-out button-theme">Read more ></a></p>
@@ -453,16 +425,16 @@ https://stackoverflow.com/questions/40430462/multi-language-page-with-javascript
                     <div class="full">
                         <img class="img-responsive" src="images/education.svg" alt="#" />
                     </div>
-                </div> -->
+                </div> 
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- end section -->
     <!-- section -->
-    <div class="section layout_padding theme_bg_vision">
+    <!-- <div class="section layout_padding theme_bg_vision">
         <div class="container">
             <div class="row">
-                <!-- <div class="col-lg-6 col-md-6 col-sm-12 text_align_center">
+                <div class="col-lg-6 col-md-6 col-sm-12 text_align_center">
                     <div class="full">
                         <img class="img-responsive" src="images/vision.svg" alt="#" />
                     </div>
@@ -472,26 +444,26 @@ https://stackoverflow.com/questions/40430462/multi-language-page-with-javascript
                     <p>Infosysgateway is one of leading local network security company ...
                     </p>
                     <p><a href="solution.html" class="hvr-radial-out button-theme">Read more ></a></p>
-                </div> -->
+                </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- end section -->
     <!-- section -->
-    <div class="section layout_padding">
+    <!-- <div class="section layout_padding">
         <div class="container">
             <div class="row">
 
 
-                <!-- <div class="col-lg-10 offset-lg-1 margin-top_30">
+                 <div class="col-lg-10 offset-lg-1 margin-top_30">
                     <div class="full text_align_center">
                         <p>SUPPORTING YOU IN RAISING ORGANIZATIONAL <u>security</u> PERFORMANCE</p>
                     </div>
-                </div> -->
+                </div> 
 
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- end section -->
 
     <!-- Start Footer -->

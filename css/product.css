@@ -92,6 +92,7 @@ body {
 .pricing-card_list-info {
     width: 90%;
     padding: 0;
+    overflow: hidden;
 }
 
 .pricing-card_item {
@@ -100,6 +101,7 @@ body {
     list-style: none;
     padding: .5em;
     border-bottom: .02em solid #ecf0f1;
+    overflow: hidden;
 }
 
 .btn {
