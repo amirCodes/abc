@@ -209,6 +209,11 @@ h4.row.mega-title {
     color: #fd7e14;
 }
 
+.exo-menu>li>.activeTab {
+    text-decoration: underline;
+    color: #fd7e14;
+}
+
 ul.stander li a {
     padding: 3px 0px;
 }
