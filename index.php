@@ -269,8 +269,8 @@ https://stackoverflow.com/questions/40430462/multi-language-page-with-javascript
             <li data-slide-to="2" data-target="#carouselExampleIndicators"></li>
             <li data-slide-to="3" data-target="#carouselExampleIndicators"></li>
             <li data-slide-to="4" data-target="#carouselExampleIndicators"></li>
-            <li data-slide-to="5" data-target="#carouselExampleIndicators"></li>
-            <li data-slide-to="6" data-target="#carouselExampleIndicators"></li>
+            <!-- <li data-slide-to="5" data-target="#carouselExampleIndicators"></li>
+            <li data-slide-to="6" data-target="#carouselExampleIndicators"></li> -->
             <!-- <li data-slide-to="7" data-target="#carouselExampleIndicators"></li> -->
             <!-- <li data-slide-to="8" data-target="#carouselExampleIndicators"></li> -->
 
@@ -285,13 +285,7 @@ https://stackoverflow.com/questions/40430462/multi-language-page-with-javascript
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nulla, tempore. Deserunt excepturi quas vero.</p>
                 </div> -->
             </div>
-            <div class="carousel-item">
-                <img alt="Second slide" class="d-block w-100" src="../images/backgroundImages/bg2.gif" style="height: 100%; margin: -4px;">
-                <!-- <div class="carousel-caption d-none d-md-block">
-                     <h5>Slider One Item</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nulla, tempore. Deserunt excepturi quas vero.</p> 
-            </div> -->
-            </div>
+
             <div class="carousel-item">
                 <img alt="Third slide" class="d-block w-100" src="../images/backgroundImages/bg44.png" style="margin: -4px;">
                 <div class="carousel-caption d-none d-md-block" style="   bottom: 480px; margin-left: -12%;  ">
@@ -323,13 +317,7 @@ https://stackoverflow.com/questions/40430462/multi-language-page-with-javascript
                     <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nulla, tempore. Deserunt excepturi quas vero.</p> -->
                 </div>
             </div>
-            <div class="carousel-item">
-                <img alt="Ten slide" class="d-block w-100" src="../images/backgroundImages/bg7-2.png" height="40%" style="margin: -4px;">
-                <div class="carousel-caption d-none d-md-block" style="   bottom: 250px; margin-left: -12%;  ">
-                    <!-- <h6 style="color: #eb8224;">YOUR RELIABLE SECURITY PARTNER</h6> -->
-                    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nulla, tempore. Deserunt excepturi quas vero.</p> -->
-                </div>
-            </div>
+
         </div>
         <a class="carousel-control-prev controlsButtons" data-slide="prev" href="#carouselExampleIndicators" role="button">
             <span aria-hidden="true" class="carousel-control-prev-icon"> </span>
@@ -374,7 +362,7 @@ https://stackoverflow.com/questions/40430462/multi-language-page-with-javascript
                     <div class="full center margin-bottom_30">
                         <div class="heading_main text_align_center">
                             <h2><span class="theme_color">OUR COMPANY</span></h2>
-                            <p class="large">YOUR RELIABLE SECURITY PARTNER</p>
+                            <p class="large" style="color: #fdbe00;">YOUR RELIABLE SECURITY PARTNER</p>
                         </div>
                     </div>
                 </div>
